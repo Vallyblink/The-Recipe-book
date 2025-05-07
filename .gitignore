@@ -1,0 +1,36 @@
+# Node.js dependencies
+node_modules/
+
+# npm package-lock files
+package-lock.json
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+
+# Build output
+/build/
+dist/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# React specific
+/.cache/
+/public/
+
+# OS-specific files
+ehthumbs.db
+Icon?
+Desktop.ini
