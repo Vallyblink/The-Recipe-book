@@ -61,7 +61,7 @@ export default function RecipeList({ recipes }) {
 
         return (
           <li key={recipe.idMeal} style={listItemStyle}>
-            <Link to={`/recipe/${recipe.idMeal}`} style={linkStyle}>
+            <Link to={`/The-Recipe-book/recipe/${recipe.idMeal}`} style={linkStyle}>
               <div>
                 <h3 style={headingStyle}>{recipe.strMeal}</h3>
                 <img

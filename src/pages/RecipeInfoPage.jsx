@@ -93,7 +93,7 @@ function RecipeInfoPage() {
   }, [idMeal]);
 
   const handleNavigate = (type, value) => {
-    navigate(`/recipes?${type}=${value}`);
+    navigate(`/The-Recipe-book/recipes?${type}=${value}`);
   };
 
   if (!recipe) return <p>Loading...</p>;
@@ -132,7 +132,7 @@ function RecipeInfoPage() {
         {relatedRecipes.map((item) => (
           <Link
             key={item.idMeal}
-            to={`/recipe/${item.idMeal}`}
+            to={`/The-Recipe-book//recipe/${item.idMeal}`}
             style={recipeLinkStyle}
           >
             {item.strMeal}
